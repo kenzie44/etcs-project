@@ -1,6 +1,6 @@
 import Whatever from "../components/whatever"
 
-
+//hello
 export default function Home(){
     return (
         <div>
@@ -8,7 +8,7 @@ export default function Home(){
             <Whatever> 
 
             </Whatever>
-            <p className={"text-blue-600"}> HELLO </p>
+            <p className={"text-blue-600"}> HELLO BITCHES</p>
         </div>
     )
 }
