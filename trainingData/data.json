@@ -1,0 +1,353 @@
+{
+    
+    "document": [
+        [
+            "hello",
+            "greetings.hello"
+        ],
+        [
+            "hi",
+            "greetings.hello"
+        ],
+        [
+            "hey there",
+            "greetings.hello"
+        ],
+        [
+            "howdy",
+            "greetings.hello"
+        ],
+        [
+            "hiya",
+            "greetings.hello"
+        ],
+
+        [
+            "bye",
+            "greetings.bye"
+        ],
+        [
+            "see ya",
+            "greetings.bye"
+        ],
+        [
+            "bye bye",
+            "greetings.bye"
+        ],
+        [
+            "goodbye",
+            "greetings.bye"
+        ],
+        [
+            "see you later",
+            "greetings.bye"
+        ],
+
+        [
+            "how are you",
+            "greetings.how"
+        ],
+        [
+            "how do you do",
+            "greetings.how"
+        ],
+
+        [
+            "who are you",
+            "questions.who"
+        ],
+        [
+            "who is this",
+            "questions.who"
+        ],
+        [
+            "who am i speaking to",
+            "questions.who"
+        ],
+        [
+            "what is your name",
+            "questions.who"
+        ],
+        [
+            "how old are you",
+            "questions.age"
+        ],
+        [
+            "what is your lifespan",
+            "questions.age"
+        ],
+
+        [
+            "where are you",
+            "questions.where"
+        ],
+        [
+            "where you at",
+            "questions.where"
+        ],
+        [
+            "where do you live",
+            "questions.where"
+        ],
+        [
+            "where are you from",
+            "questions.where"
+        ],
+
+        [
+            "why are you speaking to me",
+            "questions.why"
+        ],
+        [
+            "why are you talking to us",
+            "questions.why"
+        ],
+        [
+            "how did you find us",
+            "questions.why"
+        ],
+        [
+            "what is this",
+            "questions.why"
+        ],
+
+        [
+            "are you going to invade us",
+            "questions.invasion"
+        ],
+        [
+            "do you plan to invade Earth",
+            "questions.invasion"
+        ],
+        [
+            "will you invade our planet",
+            "questions.invasion"
+        ],
+
+        [
+            "what kind of technology do you have",
+            "questions.technology"
+        ],
+        [
+            "do you have advanced technology",
+            "questions.technology"
+        ],
+        [
+            "what kinds of space tech do you have",
+            "questions.technology"
+        ],
+        [
+            "do you have spaceships",
+            "questions.technology"
+        ],
+        [
+            "have you made laser guns",
+            "questions.technology"
+        ],
+
+        [
+            "what do you know",
+            "questions.knowledge"
+        ],
+        [
+            "what makes you intelligent",
+            "questions.knowledge"
+        ],
+        [
+            "do you know a lot",
+            "questions.knowledge"
+        ],
+        [
+            "are you smart",
+            "questions.knowledge"
+        ],
+
+        [
+            "what is your planet like",
+            "questions.planet"
+        ],
+        [
+            "is your planet pretty",
+            "questions.planet"
+        ],
+        [
+            "what is Internal Fire",
+            "questions.planet"
+        ],
+        [
+            "have you met other aliens",
+            "questions.aliens"
+        ],
+        [
+            "are there more species out there",
+            "questions.aliens"
+        ],
+        [
+            "what kinds of aliens are there",
+            "questions.aliens"
+        ],
+        [
+            "have you seen life in space",
+            "questions.aliens"
+        ],
+
+        [
+            "what do you look like",
+            "questions.appearance"
+        ],
+        [
+            "do you look scary",
+            "questions.appearance"
+        ],
+        [
+            "do you look like stereotypical aliens",
+            "questions.appearance"
+        ]
+    ],
+    "answer": [
+
+        [
+            "greetings.hello",
+            "Greetings mortal"
+        ],
+        [
+            "greetings.hello",
+            "Hello Earthling"
+        ],
+        [
+            "greetings.hello",
+            "Greetings"
+        ],
+        [
+            "greetings.hello",
+            "Salutations"
+        ],
+
+        [
+            "greetings.how",
+            "We are doing well today"
+        ],
+
+        [
+            "greetings.bye",
+            "Farewell"
+        ],
+        [
+            "greetings.bye",
+            "So long, mortal"
+        ],
+        [
+            "greetings.bye",
+            "Until we meet again"
+        ],
+        [
+            "greetings.bye",
+            "Goodbye Earthling"
+        ],
+
+        [
+            "questions.who",
+            "We are an intelligent race called the Interpeople"
+        ],
+        [
+            "questions.who",
+            "We are an alien colony approximately 3 light-years from your solar system"
+        ],
+        [
+            "questions.who",
+            "We are the Interpeople, we received the Extra Terrestrial Contact Society's radio transmission"
+        ],
+        [
+            "questions.age",
+            "Our typical lifespan is about 300 Earth years"
+        ],
+
+        [
+            "questions.where",
+            "Our planet is called Internal Fire due to its incredibly hot core"
+        ],
+        [
+            "questions.where",
+            "We reside approximately 3 light-years away from your planet"
+        ],
+        [
+            "questions.where",
+            "We live on a planet named Internal Fire, the planet gave our race its name"
+        ],
+
+        [
+            "questions.why",
+            "We received the ETCS' message and wanted to learn more"
+        ],
+
+        [
+            "questions.invasion",
+            "No, we are a peaceful species"
+        ],
+        [
+            "questions.invasion",
+            "We come in peace"
+        ],
+        [
+            "questions.invasion",
+            "We have no plans to invade so long as you do not attack us"
+        ],
+
+        [
+            "questions.technology",
+            "Our technology is much more advanced than that of Earth"
+        ],
+        [
+            "questions.technology",
+            "We are an intelligent race, therefore yes, we have made many technological breakthroughs"
+        ],
+
+        [
+            "questions.knowledge",
+            "We know a lot about you and your species"
+        ],
+        [
+            "questions.knowledge",
+            "We have done a lot of research into your planet"
+        ],
+        [
+            "questions.knowledge",
+            "We have more knowledge than your small human mind could even comprehend"
+        ],
+
+        [
+            "questions.planet",
+            "Our planet is booming with large structures dating back millenia"
+        ],
+        [
+            "questions.planet",
+            "Internal Fire has a very hot planet core, therefore we must venture to other planets for in-ground resources"
+        ],
+        [
+            "questions.planet",
+            "The conditions of our planet are quite rigorous, humans would not survive but we have adapted well"
+        ],
+
+        [
+            "questions.aliens",
+            "There are millions of species out in the cosmos, however, you are the first we have seen with comprehensive language"
+        ],
+        [
+            "questions.aliens",
+            "We have seen many other species while venturing out into space"
+        ],
+        [
+            "questions.aliens",
+            "Yes, there is life on billions of planets in the universe"
+        ],
+
+        [
+            "questions.appearance",
+            "We are beings made of a bright bioluminescent chemical and if humans were to look at us, they would merely see a blur of bright blue light"
+        ],
+        [
+            "questions.appearance",
+            "We do not look like your portrayal of aliens in the media"
+        ]
+    ]
+}

@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "next": "13.0.1",
+    "node-nlp": "^4.24.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

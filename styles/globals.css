@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navBtn {
+    @apply bg-blue-200 text-center text-lg font-semibold rounded-md p-3 h-fit w-auto text-blue-600 my-auto;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -27,4 +33,17 @@ a {
     color: white;
     background: black;
   }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+.animate {
+  animation: marquee 40s linear infinite;
 }
