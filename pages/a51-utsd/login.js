@@ -1,16 +1,33 @@
+import { NextRouter, useRouter } from "next/router";
+
 import Link from "next/link";
 import PageTemplate from "../../components/pageTemplate";
 import { useRef } from "react";
 
 export default function () {
   const inputText = useRef();
+  const inputText2 = useRef();
+  const router = useRouter();
+  let username = false;
 
-  function onChange(e) {
+  function onChangeUser(e) {
     inputText.current = e.target.value;
 
-    if (inputText.current == "officerrhodes@a51utsd.gov" && inputText2.current == "DANA") {
-
+    if (inputText.current == "officerrhodes@a51utsd.gov") {
+      username = true;
     }
+  }
+
+  function onChangePass(e) {
+    inputText2.current = e.target.value;
+
+    if (inputText2.current == "DANA" && username == true) {
+      router.push("/ltc");
+    }
+  }
+
+  function forgotPass(e) {
+    document.getElementById("hide").toggleAttribute("hidden", false);
   }
 
   return (
@@ -55,7 +72,7 @@ export default function () {
         <input
           type="text" 
           className="bg-white text-lg rounded-sm text-blue-600"
-          onChange={(event) => onChange(event)}
+          onChange={(event) => onChangeUser(event)}
         />
         <h2 className="text-blue-600 font-extrabold text-4xl pt-10 pb-5">
           Password
@@ -63,10 +80,16 @@ export default function () {
         <input
           type="text"
           className="bg-white text-lg rounded-sm text-blue-600"
-        ></input>
-        <button className="text-blue-600 font-semibold text-2xl underline pt-10">
+          onChange={(event) => onChangePass(event)}
+        />
+        <button className="text-blue-600 font-semibold text-2xl underline pt-10"
+        onClick={(event) => forgotPass(event)}
+        >
           Forgot Password?
         </button>
+        <p id="hide" className="text-blue-600 text-xl" hidden="true">
+          Your pride and joy. (ALL CAPS)
+        </p>
       </div>
       <footer className="bg-blue-200 h-100 w-full px-64 py-3 flex flex-col mt-auto">
         <div className="flex flex-row justify-between">
