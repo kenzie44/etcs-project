@@ -61,21 +61,21 @@ export default function () {
           </Link>
           <Link
             target="_blank"
-            href=""
+            href="/documents/MikeRossInterrogationTranscript.pdf"
             className="text-lg text-blue-600 underline"
           >
             Mike Ross Interrogation Transcript
           </Link>
           <Link
             target="_blank"
-            href=""
+            href="/documents/EmilyCarlsonToxReport.pdf"
             className="text-lg text-blue-600 underline"
           >
             Emily Carlson Unreleased Toxicology Report
           </Link>
           <Link
             target="_blank"
-            href=""
+            href="/documents/TerryHornToxReport.pdf"
             className="text-lg text-blue-600 underline"
           >
             Terry Horn Unreleased Toxicology Report
