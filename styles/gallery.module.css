@@ -1,0 +1,46 @@
+/* 							gallery 						*/
+/*							CSS inspired by https://codepen.io/christadejesus/pen/KKRLgVL */
+.card_gallery
+{
+	position: relative; 
+  display: grid;
+  height: 180px;
+  overflow: hidden; /* comment this out, hover over cards, and see what happens! */
+  border-radius: 2px;
+  box-shadow: 2px 4px 8px rgba(59,38,0,.6); /* transparent dark brown color */
+}
+
+.card_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); /* additional cards can be easily added to the grid while maintaining responsiveness */
+	grid-gap: 10px;
+	max-width: 900px;
+	margin: 20px; /* a little room to breath on smaller screens */
+	padding: 10px; /* allows .card box-shadow to be seen, otherwise hidden by overflow:hidden */
+	overflow: hidden; /* needed for responsiveness of grid and to prevent horizontal overflow scroll on small screens */
+  }
+
+  .card_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	color: orange;
+	opacity: 0; /* the text is always there, just invisible... spooky! */
+	z-index: 1; /* change to 0 and watch what happens! */
+  }
+  .card_gallery:hover::after {
+	content: '';
+	position: absolute;
+	top: 0; /* all values are needed for the content to span the space of the container */
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.7);
+  }
+  .card_gallery:hover .card_img {
+	scale: 1.5; /* that zoom effect! */
+  }
+  .card_gallery:hover .card_text {
+	opacity: 1; /* now, there's the text! */
+  }

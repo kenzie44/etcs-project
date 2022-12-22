@@ -36,7 +36,7 @@ export default function () {
         <div className="flex flex-row">
           <img
             className="h-[100px] w-[100px]"
-            src="../photos/A51UTSD_logoTP.png"
+            src="../photos/A51UTSD/A51UTSD_logoTP.png"
           />
           <div className="flex flex-col">
             <h1 className="font-extrabold text-6xl text-white text-center">

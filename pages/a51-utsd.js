@@ -9,7 +9,7 @@ export default function () {
         <div className="flex flex-row">
           <img
             className="h-[100px] w-[100px]"
-            src="photos/A51UTSD_logoTP.png"
+            src="photos/A51UTSD/A51UTSD_logoTP.png"
           />
           <div className="flex flex-col">
             <h1 className="font-extrabold text-6xl text-white text-center">
@@ -40,7 +40,7 @@ export default function () {
           WELCOME TO THE UNEARTHLY THREAT SUPPRESSION DIVISION
         </h2>
         <div className="flex flex-row">
-          <img className="rounded-md w-96" src="photos/WeAreWatchingYou.png" />
+          <img className="rounded-md w-96" src="photos/A51UTSD/WeAreWatchingYou.png" />
           <div className="flex flex-col py-1 pl-10">
             <h4 className="text-blue-600 font-semibold text-2xl pb-3">
               A51 - Unearthly Threat Suppression Division Data Archives Access

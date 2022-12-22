@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 export default function ChatLine(props) {
-  const textColour = props.bot ? "red2" : "green-500";
+  const textColour = props.bot ? "red-500" : "green-500";
   
   function handleChatLineSubmit(e) {
     e.preventDefault();
